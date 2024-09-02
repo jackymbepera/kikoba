@@ -43,15 +43,39 @@
     </div>
 </div> 
 </div>
-<body>
+
+
+   <div class="table">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>userID</th>
+            <th>date</th>
+            <th>amount</th>
+        </tr>
+        <tr>
+            <td>juma</td>
+            <td>2222</td>
+            <td>23000</td>
+            <td>23000</td>
+        </tr>
+        
+        <td>jack</td>
+        <td>666</td>
+        <td>90000</td>
+        <td>23000</td>
+    </tr>
+    </table>
+</div>
 
 </body>
-<div class="foot">
+
+{{-- <div class="foot">
     <footer>
           &copy  Copyrights 2024 Penny Pionners All rights reserved.
   
       
-          </footer></div>
-      
+          </footer></div> --}}
+
       
   </html>

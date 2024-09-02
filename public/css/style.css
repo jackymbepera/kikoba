@@ -188,12 +188,13 @@ button{
     text-align: center;
     padding: 20px 20px;
     height: 100px;;
-    bottom: 0px;
+    padding-bottom: 0%;
     display: flex;
     text-align: center;
   
     
 }
+
 .sign_image{
     background-color:#E7E8D8;
     background-size: cover;
@@ -283,4 +284,20 @@ button{
     padding: 8px;
     border-radius: 6px solid ;
 
+}
+table{
+    border-collapse:collapse;
+    width: 90%;
+
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: left;
+    padding:10px;
+
+}
+.table{
+    padding-top:20%;
+    padding-left: 100px;
 }
