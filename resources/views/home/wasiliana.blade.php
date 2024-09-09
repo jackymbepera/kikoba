@@ -37,7 +37,7 @@
         <div class="links">
             <a href="{{route ('home') }}">Home</a>
             <a href="{{route ('lipa') }}">lipa</a>
-            <a href="{{route ('ratibakutoka') }}">ratiba ya kutoka</a>
+            <a href="{{route ('ratiba') }}">ratiba ya kutoka</a>
             <a href="{{route ('lipa') }}">gharama</a>
             <a href="{{route ('wasiliananasi') }}">wasiliana nasi</a>
     </div>

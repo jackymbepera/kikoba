@@ -32,7 +32,7 @@
     <div class="links">
         <a href="{{route ('home') }}">home</a>
         <a href="{{route ('lipa') }}">Lipa</a>
-        <a href="{{route ('ratibakutoka') }}">ratiba ya kutoka</a>
+        <a href="{{route ('ratiba') }}">ratiba ya kutoka</a>
         <a href="{{route ('lipa') }}">gharama</a>
         <a href="{{route ('wasiliananasi') }}">wasiliana nasi</a>
 </div>
@@ -50,19 +50,19 @@
         <div class="form_container" >
             <div class="form_table" >
 
-                <form action="{{route('store')}}"  method="POST">
+                <form method="POST" action="{{route('store')}}">
 
                     @csrf
                     @method('post')
 
-                    <input type="text" id="input"  name="username" placeholder="username"></br>
-                    <input type="text" id="input" name="fullname" placeholder="fullname"></br>
-                    <input type="email" id="input" name="user_email" placeholder="email"></br>
-                    <input type="password" id="input" name="user_password" placeholder="password"><br>
+                    <input type="text" id="input"  name="username"  placeholder="username" ></br>
+                    <input type="text" id="input" name="fullname" placeholder="fullname" ></br>
+                    <input type="email" id="input" name="user_email" placeholder="email" ></br>
+                    <input type="password" id="input" name="user_password" placeholder="password" ><br>
                     <input type="checkbox" id="checbox" name="checbox" value="box">
                     <label for="checkbox"> I have read and accept the <a href="terms and policy">Terms and Privacy Policy</a></label><br>
                     <div class="button">
-                         <input type="submit" id="buttn"  value="SIGN UP" >
+                         <input type="submit" id="buttn"  value="SIGN UP">
                     </div>
 
                     <div class="log">

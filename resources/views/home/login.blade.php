@@ -16,7 +16,7 @@
                     <input type="text" id="input"  placeholder="username or email"></br>
                     <input type="password" id="input" name="password" placeholder="password"><br>
                     <div class="button">
-                         <input type="button" id="buttn"  value="LOG IN">
+                          <a href="{{route('dashboard')}}" ><input type="button" id="buttn"  value="LOG IN"></a>
                     </div>
             </div>
                 </div>

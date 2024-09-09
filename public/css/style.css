@@ -301,3 +301,8 @@ th, td {
     padding-top:20%;
     padding-left: 100px;
 }
+
+.dashboard{
+    background-color: aquamarine;
+    height:200px;
+}
